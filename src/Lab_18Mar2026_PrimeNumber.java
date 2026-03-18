@@ -2,9 +2,9 @@ public class Lab_18Mar2026_PrimeNumber {
     public static void main(String[] args) {
         int num = 29;
         boolean isPrime = true;
-        if(num<=1)
+        if(num==1)
         {
-            isProme = fasle;
+            isPrime = false;
         }
         else
         {

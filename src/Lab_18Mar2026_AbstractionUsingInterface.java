@@ -9,7 +9,14 @@ interface Payment {
 }
 
 class UPI implements Payment {
-    public void pay() {
+    public void pay()
+    {
         System.out.println("Paid via UPI");
+    }
+}
+class CreditCard implements Payment{
+    public void pay()
+    {
+        System.out.println("Paid via Credit Card");
     }
 }

@@ -10,7 +10,6 @@ public class Lab_18Mar2026_zeroAtFirstnonzeroAtLast {
                 nonZeroIndex++;
             }
         }
-
         // Fill the remaining elements with zero
         for (int i = nonZeroIndex; i < arr.length; i++) {
             arr[i] = 0;

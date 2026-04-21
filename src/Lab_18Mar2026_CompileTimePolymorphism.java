@@ -9,11 +9,13 @@ public class Lab_18Mar2026_CompileTimePolymorphism {
     }
 }
 class MathUtil {
-    int add(int a, int b) {
+    int add(int a, int b)
+    {
         return a + b;
     }
 
-    int add(int a, int b, int c) {
+    int add(int a, int b, int c)
+    {
         return a + b + c;
     }
 }

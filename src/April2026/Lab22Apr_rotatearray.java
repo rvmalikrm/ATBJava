@@ -20,7 +20,7 @@ public class Lab22Apr_rotatearray
     public static void rotateArray(int[] input, int k)
     {
         int n = input.length;
-        int[] rotated = new int[n];
+
         reverse(input,0,n-1);
         reverse(input,0,k-1);
         reverse(input,k,n-1);
